@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31906be4-fe08-4f3b-ba02-e8d4d202e367" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/znxd/apache-maven-3.3.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2gDVLWzkesReGmQQGrdlQqhuVCA" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lk/src/main/java/com/helx/usercenter" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.helx.usercenter.bloom" />
+      <recent name="com.helx.usercenter.model" />
+      <recent name="com.helx.usercenter.mapper" />
+      <recent name="com.helx.usercenter.dao" />
+      <recent name="com.helx" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\freedom\hcloud\lk\src\main\java\com\helx\usercenter" />
+      <recent name="D:\freedom\hcloud\usercenter\src\main\resources\mapper" />
+      <recent name="D:\freedom\hcloud\wg\src\main\java\com\helx" />
+      <recent name="D:\freedom\hcloud" />
+      <recent name="D:\freedom\hcloud\cool\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UsercenterApplication">
+    <configuration name="CoolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.helx.usercenter.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.helx.usercenter.CoolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsercenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.helx.usercenter.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.helx.usercenter.UsercenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WgApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wg" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.helx.WgApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lk2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.helx.usercenter.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.helx.usercenter.CoolApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CoolApplication" />
+      <item itemvalue="Spring Boot.lk2" />
+      <item itemvalue="Spring Boot.WgApplication" />
+      <item itemvalue="Spring Boot.UsercenterApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UsercenterApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31906be4-fe08-4f3b-ba02-e8d4d202e367" name="Default Changelist" comment="" />
+      <created>1715232079204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715232079204</updated>
+      <workItem from="1715232082228" duration="575000" />
+      <workItem from="1715232902357" duration="1692000" />
+      <workItem from="1715234890629" duration="494000" />
+      <workItem from="1715236980639" duration="15730000" />
+      <workItem from="1715312118424" duration="7364000" />
+      <workItem from="1715436380856" duration="4972000" />
+      <workItem from="1715486824858" duration="5017000" />
+      <workItem from="1715511973546" duration="4326000" />
+      <workItem from="1715518374782" duration="4360000" />
+      <workItem from="1715602850735" duration="4279000" />
+      <workItem from="1716015330757" duration="16127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

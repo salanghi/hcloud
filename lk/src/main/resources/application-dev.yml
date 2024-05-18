@@ -1,0 +1,64 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: cool
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  sleuth:
+    sampler:
+      # 采样率的概率，100%采样
+      probability: 1.0
+      # 每秒采样数字最高为1000
+      rate: 1000
+  zipkin:
+    sender:
+      type: kafka
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+    consumer:
+      bootstrapServers:  127.0.0.1:9092
+      topics: testTopic1,testTopic2
+      groupId: test1
+      #后台的心跳线程必须在30秒之内提交心跳,否则会reBalance
+      sessionTimeOut: 30000
+      #取消自动提交,即便如此 spring会帮助我们自动提交
+      enableAutoCommit: false
+      #自动提交间隔
+      autoCommitInterval: 1000
+      maxPollRecords: 50
+      #300秒的提交间隔,如果程序大于300秒提交,会报错
+      maxPollInterval: 300000
+      #心跳间隔
+      keyDeserializer: org.apache.kafka.common.serialization.StringDeserializer
+      valueDeserializer: org.apache.kafka.common.serialization.StringDeserializer
+      autoOffsetReset: latest
+      heartbeatInterval: 10000
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 60000
+    database: 0
+  main:
+    allow-bean-definition-overriding: true
+  shardingsphere:
+    props:
+      sql.show: true #是否输出sql
+    datasource:
+      names: ds0 #指定数据源 名称可以自定义，注意：名称要跟后面的配置一致
+      ds0: #配置数据源的连接信息
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/sharding?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+        username: root
+        password: 135246
+mybatis:
+  type-aliases-package: com.helx.usercenter.dao
+  mapper-locations: classpath:mapper/*.xml
+logging:
+  level:
+    org.springframework.cloud.sleuth: debug
+

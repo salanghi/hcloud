@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace = "com.helx.usercenter.mapper.OrderMapper">
+
+    <insert id="insert" parameterType="com.helx.usercenter.model.Order" >
+        INSERT INTO t_order (order_id,price,user_id,status) VALUES (#{orderId},#{price},#{userId},#{status})
+    </insert>
+
+    <select id="selectAll" resultType="com.helx.usercenter.model.Order">
+        select order_id as orderId, price, user_id as userId, status from t_order order by order_id
+    </select>
+</mapper>
